@@ -12,7 +12,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flex {
     display: flex;
     padding-top: 25px;
     margin-bottom: 140px;
@@ -38,6 +38,12 @@ section {
     color: white;
 }
 
+.Link-Button:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
 .first-page {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -47,4 +53,56 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiences-item {
+    width: 42%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    padding-right: 10px;
+    box-sizing: 100% 120%;
+    box-shadow: 15px 15px 40px black;
+    border-radius: 15px;
+
+    padding-bottom: 50px;
+}
+
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.Demo-Button {
+    text-decoration: none;
+    background-image: linear-gradient(red, blue, green);
+    padding: 9px 40px;
+    border-radius: 8px;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+#baby-l-border {
+    border-left: 9px solid;
+    border-image: linear-gradient(blue, green, black);
+    border-image-slice: 1;
+}
+
+#stack-l-border {
+    border-left: 9px solid;
+    border-image: linear-gradient(purple, green, blue);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+    background-color: cyan;
+    border-radius: 40px;
+    font-weight: 700;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px 15px;
+    color: black;
 }
